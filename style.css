@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.input-search{
+    text-align: left; 
+    margin-left: 300px;
+    margin-top: 200px;
+    border-radius: 30px;
+    
+}
+
+input{
+    font-size: 50px;
+    border-radius: 30px;
+    border-color:none;
+    outline: none;
+    
+}
+
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+  }
+  
+  input[placeholder]{
+    padding-left: 50px;
+}
+
+button{
+    font-size: 50px;
+    background-color:#150035;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 250px;
+    margin-left: 20px;
+    color:white;
+   
+
+}
+
+button:hover {
+    border-radius: 10px;
+    transition: 50ms;
+
+}
+
+body{
+    background:url('luna-img.jpeg');
+    background-size: cover;
+}
+
+
+.container{
+    width: 300px;
+    height: 500px;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 300px;
+    margin-top:150px;
+    background-color: white;
+}
+
+img{
+    height: 200px;
+}
+
+h1{
+ text-align: center;
+ margin-top: 80px;
+ font-size: 150px;
+ color:white;
+}
